@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{ url_for('static', filename='estilo.css') }}" rel="stylesheet">
+    <title>Proyecto - Inteligencia Artificial detectora de </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo_resultado">
+            <h1>Resultado del análisis: {{resultado}}</h1>
+        </div>
+        <img src="{{ url_for('static', filename=nombre_imagen) }}">
+            <div class="subida_imagen_contenedor">
+                <input onclick=retornar() type="submit" name="subir-imagen" value="Regresar al Inicio" class="boton_regreso"/>
+            </div>
+        </form>
+        <div class="contenedor_info">
+            <div class="titulo_contenedor">
+                <h2>Informacion del análisis</h2>
+            </div>
+            <div class="informacion_data">
+                <p>Nombre del archivo: Imagen.jpeg</p>
+                <p>Dimensiones del archivo: 210x210</p>
+                <p>Porcentaje en precision: 70%</p>
+                <p>Dimensiones del archivo: 210x210</p>
+                <p>Nombre del archivo: Imagen.jpeg</p>
+                <p>Dimensiones del archivo: 210x210</p>
+                <p>Nombre del archivo: Imagen.jpeg</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // Definiendo funcion para retornar al inicio después del reconocimiento
+    function retornar() {
+        location.replace("http://127.0.0.1:8003/")
+    }
+</script>
+</html>

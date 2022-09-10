@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{ url_for('static', filename='estilo.css') }}" rel="stylesheet">
+    <title>Proyecto - Inteligencia Artificial detectora de Neumonía</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>Inteligencia Artificial detectora de infecciones respiratorias Agudas</h1>
+        </div>
+        <img src="{{ url_for('static', filename=nombre_imagen) }}">
+        <form action="/" name="subida-imagenes" method="POST" enctype="multipart/form-data">
+            <div class="subida_imagen_contenedor">
+                <input type="file" name="imagen1" id="imagen1" class="nombre_file"/>
+                <input id="submit_activador" type="submit" name="subir-imagen" value="Analizar radiografía" class="boton_envio"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
