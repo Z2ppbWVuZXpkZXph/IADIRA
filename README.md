@@ -8,6 +8,9 @@
 
 <h1>Investigación propuesta</h1>
 <p>Durante la elaboración del proyecto, estuve investigando sobre la importancia del proyecto, por lo que, llegué a recopilar los siguientes datos:<p>
-| Windows | Linux | Mac | Termux |
-| ------- | ----- | --- | ------ |
-| ✔ | ✔ | ❔ | ✔ |
+<ul>
+  <li>a</li>
+  <li>b</li>
+  <li>b</li>
+  <li>a</li>
+</ul>
