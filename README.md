@@ -9,12 +9,22 @@
 <h1>Investigación propuesta</h1>
 <p>Durante la elaboración del proyecto, estuve investigando sobre la importancia del proyecto, por lo que, llegué a recopilar los siguientes datos:<p>
 <ul>
-  <li>a</li>
-  a
-  <li>b</li>
+  <li>Comparación de tiempo estimado en la detección de neumonía con radiografías con radiologos certificados</li>
+  <p>Durante la investigación, el primer objetivo de investigación fué el tiempo que una radiólogo demora en detectar este tipo de patologías, y cuánto tiempo demora en hacerlo una IA, y los resultados fueron los siguientes:<p>
+  <table>
+    <tr>
+      <td></td>
+      <td>Médico radiólogo</td>
+      <td>Inteligencia Artificial</td>
+      <td>Resultado comparativo</td>
+    </tr>
+  </table>
+  <li>Comparación de</li>
   b
   <li>b</li>
   b
-  <li>a</li>
+  <li>Estudio de pacientes de prueba</li>
   a
 </ul>
+Estructura de la IA
+Base de datos
