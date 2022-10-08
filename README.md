@@ -13,7 +13,7 @@
   <p>Durante la investigación, el primer objetivo de investigación fué el tiempo que una radiólogo demora en detectar este tipo de patologías, y cuánto tiempo demora en hacerlo una IA, y los resultados fueron los siguientes:<p>
   <table>
     <tr>
-      <td></td>
+      <td>Centro médico</td>
       <td>Médico radiólogo</td>
       <td>Inteligencia Artificial</td>
       <td>Resultado comparativo</td>
@@ -22,6 +22,18 @@
       <td>Clínica privada</td>
       <td>1,5 horas</td>
       <td>20 segundos</td>
+      <td>La IA es más rápida</td>
+    </tr>
+    <tr>
+      <td>Centro de seguros</td>
+      <td>15 minutos</td>
+      <td>30 segundos</td>
+      <td>La IA es más rápida</td>
+    </tr>
+    <tr>
+      <td>Entrevista de Técnico Radiólogo</td>
+      <td>1 hora</td>
+      <td>30 egundos</td>
       <td>La IA es más rápida</td>
     </tr>
   </table>
@@ -34,3 +46,4 @@
 </ul>
 Estructura de la IA
 Base de datos
+inconvenientes al programarla
