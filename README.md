@@ -82,6 +82,30 @@
         <td>Si tiene neumonía</td>
         <td>Fallido</td>
       </tr>
+      <tr>
+        <td>2</td>
+        <td>No tiene Neumonía</td>
+        <td>Si tiene neumonía</td>
+        <td>Fallido</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Si tiene Neumonía</td>
+        <td>Si tiene neumonía</td>
+        <td>Acertado</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Si tiene Neumonía</td>
+        <td>Si tiene neumonía</td>
+        <td>Acertado</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>No tiene Neumonía</td>
+        <td>Si tiene neumonía</td>
+        <td>Fallido</td>
+      </tr>
     </table>
 </ul>
 Estructura de la IA
