@@ -10,7 +10,11 @@
 <p>Durante la elaboración del proyecto, estuve investigando sobre la importancia del proyecto, por lo que, llegué a recopilar los siguientes datos:<p>
 <ul>
   <li>a</li>
+  a
   <li>b</li>
+  b
   <li>b</li>
+  b
   <li>a</li>
+  a
 </ul>
