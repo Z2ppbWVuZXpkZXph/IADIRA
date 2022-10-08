@@ -65,8 +65,8 @@
       <td>El médico radiologo es más preciso</td>
     </tr>
   </table>
-  <li>Estudio de análisis en entornos reales con radiografías reales.</li>
-  <p>Gracias a la ayuda a una clínica privada, nos proporcionaron 5 radiografías de torax, 2 con <b>NEUMONÍA</b> y 3 <b>SIN NEUMONÍA</b>, por lo que, logramos obtener los resultados:</p>
+  <li>Estudio de resultados en entornos reales con radiografías reales.</li>
+  <p>Gracias a la ayuda de una clínica privada, nos proporcionaron 5 radiografías de torax, 2 con <b>NEUMONÍA</b> y 3 <b>SIN NEUMONÍA</b>, por lo que, logramos obtener los resultados:</p>
   <ul>
     <li>Comparación de resultados de predicciones de la IA con radiografías de tórax con la IA en su primer etapa:</li>
     <table>
@@ -108,6 +108,87 @@
       </tr>
     </table>
 </ul>
-Estructura de la IA
+<h2>Estructura de la IA</h2>
+  <p>Para llevar a cabo el entrenamiento de este proyecto, usamos <b>REDES NEURONALES CONVOLUCIONALES</b>, que nos permite usar diferentes tipos de filtros en imágenes para encontrar características en los datos.</p>
+    <table>
+      <tr>
+        <td>N° de capa</td>
+        <td>Tipo de capa</td>
+        <td>Función de la capa</td>
+        <td>N° de unidades</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Convolución</td>
+        <td>Usa diferentes filtros para encontrar características</td>
+        <td>32 mapas</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>MaxPooling</td>
+        <td>Saca un valor máximo en una matriz de 2x2</td>
+        <td>1 vez</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Convolución</td>
+        <td>Usa diferentes filtros para encontrar características</td>
+        <td>64 mapas</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>MaxPooling</td>
+        <td>Saca un valor máximo en una matriz de 2x2</td>
+        <td>1 vez</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Convolución</td>
+        <td>Usa diferentes filtros para encontrar características</td>
+        <td>128 mapas</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>MaxPooling</td>
+        <td>Saca un valor máximo en una matriz de 2x2</td>
+        <td>1 vez</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Dropout</td>
+        <td>Se usa solo un porcentaje de cantidad de neuronas existentes</td>
+        <td>50%</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Flatten</td>
+        <td>Se realiza un aplanamiento de los datos luego de la convolución</td>
+        <td>1 vez</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Densa</td>
+        <td>La parte principal que la IA para realizar el cálculo con la función de activación Relu</td>
+        <td>64 neuronas</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Densa</td>
+        <td>La parte principal que la IA para realizar el cálculo con la función de activación Relu</td>
+        <td>128 neuronas</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Densa</td>
+        <td>La parte principal que la IA para realizar el cálculo con la función de activación Relu</td>
+        <td>64 neuronas</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Densa</td>
+        <td>La parte principal que la IA para realizar el cálculo con la función de activación Sigmoidal</td>
+        <td>1 neurona</td>
+      </tr>
+    </table>
 Base de datos
 inconvenientes al programarla
