@@ -39,7 +39,7 @@
   </table>
   <li>Comparasión de precisión en el momento del análisis en radiografías</li>
   <p>Durante la investigación, una de las mayores prioridades es aumentar el nivel de precisión en la IA, para así tener un grado alto de confiabilidad, para lo cual, se obtuvo los siguientes resultados:<p>
-  <td>
+  <table>
     <tr>
       <td>Etapa del proyecto</td>
       <td>Médico radiólogo</td>
@@ -64,7 +64,7 @@
       <td>94% de confiabilidad</td>
       <td>El médico radiologo es más preciso</td>
     </tr>
-  </td>
+  </table>
   <li>Estudio de análisis en entornos reales con radiografías reales.</li>
   <p>Gracias a la ayuda a una clínica privada, nos proporcionaron 5 radiografías de torax, 2 con <b>NEUMONÍA</b> y 3 <b>SIN NEUMONÍA</b>, por lo que, logramos obtener los resultados:</p>
   <ul>
