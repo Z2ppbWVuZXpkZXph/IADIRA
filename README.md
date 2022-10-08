@@ -37,12 +37,50 @@
       <td>La IA es más rápida</td>
     </tr>
   </table>
-  <li>Comparación de</li>
-  b
-  <li>b</li>
-  b
-  <li>Estudio de pacientes de prueba</li>
-  a
+  <li>Comparasión de precisión en el momento del análisis en radiografías</li>
+  <p>Durante la investigación, una de las mayores prioridades es aumentar el nivel de precisión en la IA, para así tener un grado alto de confiabilidad, para lo cual, se obtuvo los siguientes resultados:<p>
+    <tr>
+      <td>Etapa del proyecto</td>
+      <td>Médico radiólogo</td>
+      <td>Inteligencia Artificial</td>
+      <td>Resultado comparativo</td>
+    </tr>
+    <tr>
+      <td>1ra Etapa</td>
+      <td>99,70% de confiabilidad</td>
+      <td>68% de confiabilidad</td>
+      <td>El médico radiologo es más preciso</td>
+    </tr>
+    <tr>
+      <td>2da Etapa</td>
+      <td>99,70% de confiabilidad</td>
+      <td>88% de confiabilidad</td>
+      <td>El médico radiologo es más preciso</td>
+    </tr>
+    <tr>
+      <td>3ra Etapa</td>
+      <td>99,70% de confiabilidad</td>
+      <td>94% de confiabilidad</td>
+      <td>El médico radiologo es más preciso</td>
+    </tr>
+  <li>Estudio de análisis en entornos reales con radiografías reales.</li>
+  <p>Gracias a la ayuda a una clínica privada, nos proporcionaron 5 radiografías de torax, 2 con <b>NEUMONÍA</b> y 3 <b>SIN NEUMONÍA</b>, por lo que, logramos obtener los resultados:</p>
+  <ul>
+    <li>Comparación de resultados de predicciones de la IA con radiografías de tórax con la IA en su primer etapa:</li>
+    <table>
+      <tr>
+        <td>N° de Paciente</td>
+        <td>Diagnóstico médico</td>
+        <td>Predicción de la IA</td>
+        <td>Resultado comparativo</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>No tiene Neumonía</td>
+        <td>Si tiene neumonía</td>
+        <td>Fallido</td>
+      </tr>
+    </table>
 </ul>
 Estructura de la IA
 Base de datos
