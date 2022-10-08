@@ -18,6 +18,12 @@
       <td>Inteligencia Artificial</td>
       <td>Resultado comparativo</td>
     </tr>
+    <tr>
+      <td>Clínica privada</td>
+      <td>1,5 horas</td>
+      <td>20 segundos</td>
+      <td>La IA es más rápida</td>
+    </tr>
   </table>
   <li>Comparación de</li>
   b
